@@ -1,7 +1,7 @@
 
-<a  href="https://www.talosdigital.com/" style="background:#000;display:block;">
+<a  href="https://www.talosdigital.com/">
 
-<img  src="https://www.talosdigital.com/wp-content/themes/TalosWeb/assets/img/logo-talos-negative.svg"  alt="Prototype logo"  title="Talos Digiral"  align="right"  height="30"  />
+<img  src="https://www.talosdigital.com/wp-content/themes/TalosWeb/assets/img/logo-talos.svg"  alt="Prototype logo"  title="Talos Digiral"  align="right"  height="30"  />
 
 </a>
 
