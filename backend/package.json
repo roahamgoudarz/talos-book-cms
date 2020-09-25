@@ -27,6 +27,7 @@
     "@nestjs/typeorm": "^6.1.1",
     "@nestjsx/crud": "^4.1.0",
     "@nestjsx/crud-typeorm": "^4.1.0",
+    "@web-master/node-web-fetch": "latest",
     "aws-sdk": "^2.506.0",
     "class-transformer": "^0.2.3",
     "class-validator": "^0.9.1",
