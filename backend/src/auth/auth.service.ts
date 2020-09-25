@@ -11,7 +11,7 @@ export class AuthService {
     ) { }
  
     private async validate(userData: User): Promise<User> {
-        return await this.userService.findByEmail(userData.email);
+        return await this.userService.findByEmail(userData.email, userData.password);
     }
 
     public async login(user: User): Promise< any | { status: number }>{

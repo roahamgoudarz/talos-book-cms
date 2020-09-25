@@ -11,10 +11,11 @@ export class UserService {
         private userRepository: Repository<User>,
     ) { }
 
-    async findByEmail(email: string): Promise<User> {
+    async findByEmail(email: string, password: string): Promise<User> {
         return await this.userRepository.findOne({
             where: {
                 email: email,
+                password: password
             }
         });
     }
