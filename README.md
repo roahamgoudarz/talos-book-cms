@@ -1,5 +1,5 @@
 
-<a  href="https://www.talosdigital.com/">
+<a  href="https://www.talosdigital.com/" style="background:#000;display:block;">
 
 <img  src="https://www.talosdigital.com/wp-content/themes/TalosWeb/assets/img/logo-talos-negative.svg"  alt="Prototype logo"  title="Talos Digiral"  align="right"  height="30"  />
 
@@ -101,9 +101,9 @@ https://documenter.getpostman.com/view/10722927/TVKG2HCa
 
 ## Stack
 
-[Nest](https://github.com/nestjs/nest)
-[React](https://github.com/facebook/react)
-[React-admin](https://github.com/marmelab/react-admin)
+ - [Nest](https://github.com/nestjs/nest)
+ - [React](https://github.com/facebook/react)
+ - [React-admin](https://github.com/marmelab/react-admin)
 
   
   
