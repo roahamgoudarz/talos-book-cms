@@ -130,7 +130,7 @@ const Login = () => {
                                 </Avatar>
                             </div>
                             <div className={classes.hint}>
-                                Hint: demo / demo
+                                Hint: test@talos.com / 123456
                             </div>
                             <div className={classes.form}>
                                 <div className={classes.input}>
