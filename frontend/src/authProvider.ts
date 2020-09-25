@@ -19,9 +19,13 @@ const authProvider = {
                 }
                 return response.json();
             })
-            .then(({ access_token }) => {
-                localStorage.setItem('token', access_token);
-                localStorage.setItem('username', username);
+            .then(({ access_token, user_id, status }) => {
+                if(status == 200){
+                    localStorage.setItem('token', access_token);
+                    localStorage.setItem('username', user_id);
+                }else{
+                    throw new Error("Wront Credentials!");
+                }
             });
     },
     getPermissions: params => Promise.resolve(),
