@@ -2,7 +2,7 @@ import { url } from './config/connection';
 
 const authProvider = {
     login: ({ username, password }) =>  {
-        const request = new Request(url + '/auth/register', {
+        const request = new Request(url + '/auth/login', {
             method: 'POST',
             body: JSON.stringify({ 
                 email: username, 
